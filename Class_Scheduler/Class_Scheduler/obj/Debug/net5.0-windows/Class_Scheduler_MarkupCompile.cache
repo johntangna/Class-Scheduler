@@ -1,0 +1,20 @@
+﻿Class_Scheduler
+
+
+winexe
+C#
+.cs
+E:\Coding\WPF Application\Class_Scheduler\Class_Scheduler\obj\Debug\net5.0-windows\
+Class_Scheduler
+none
+false
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+E:\Coding\WPF Application\Class_Scheduler\Class_Scheduler\App.xaml
+211924219319
+
+821286890212
+237807696719
+Styles\Styles.xaml;Views\ClassesView.xaml;Views\ClassroomsView.xaml;Views\DialogView\AddMembersDialogView.xaml;Views\DialogView\AddRoomsDialogView.xaml;Views\DialogView\AddStudentsDialogView.xaml;Views\DialogView\AddSubjectsDialogView.xaml;Views\DialogView\AddTeachersDialogView.xaml;Views\DialogView\DeleteMembersDialogView.xaml;Views\DialogView\ModifyRoomsDialogView.xaml;Views\DialogView\ModifyStudentsDialogView.xaml;Views\DialogView\ModifySubjectsDialogView.xaml;Views\DialogView\ModifyTeachersDialogView.xaml;Views\MainView.xaml;Views\SchedulesView.xaml;Views\Settings\AccountSettingsView.xaml;Views\Settings\AdvanceSettingsView.xaml;Views\Settings\SettingView.xaml;Views\StudentsView.xaml;Views\SubjectsView.xaml;Views\TeachersView.xaml;
+
+False
+

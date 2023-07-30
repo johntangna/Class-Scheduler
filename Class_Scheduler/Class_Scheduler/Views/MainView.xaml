@@ -1,0 +1,177 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:extension="clr-namespace:Class_Scheduler.Extensions"
+        xmlns:prism="http://prismlibrary.com/" 
+        xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="Class_Scheduler.Views.MainView" 
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Height="980" Width="1500" WindowStartupLocation="CenterScreen" WindowStyle="None"  
+        AllowsTransparency="True" Background="Transparent" SizeChanged="Window_SizeChanged">
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="SizeChanged">
+            <i:InvokeCommandAction Command="{Binding NotifySizeChangeCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </Window.Resources>
+
+    <Border Background="#eff2f7" CornerRadius="30" MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--Left Menu-->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button Margin="20 28 0 35" Style="{StaticResource topButton}">
+                    <Icon:PackIconMaterial Kind="Menu" Width="15" Height="15"/>
+                </Button>
+
+                <Border Grid.Row="1" Background="#623ed0" CornerRadius="0 50 0 30">
+                    <DockPanel LastChildFill="True">
+                        <Border Width="80" Height="80" Background="White" CornerRadius="100"
+                                DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="20 -30 0 0">
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="/Images/user_img.jpg"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Border>
+
+                        <!--Menu Titles-->
+                        <TextBlock Text="Shangde." Foreground="White" FontSize="22" FontWeight="SemiBold"
+                                   DockPanel.Dock="Top" TextAlignment="Center" Margin="5 25 0 10"/>
+
+                        <TextBlock Text="Zhiyu Zhang" Foreground="#d0bfff" FontSize="14" FontWeight="SemiBold" 
+                                   DockPanel.Dock="Top" TextAlignment="Center"/>
+
+                        <!--Menu Seperator-->
+                        <Separator Margin="25" DockPanel.Dock="Top" Height="0.8" Background="#7e5fdc"/>
+
+                        <!--Menu Button-->
+
+
+                        <StackPanel DockPanel.Dock="Top">
+                            <!--<RadioButton Style="{StaticResource menuButton}" Command="{Binding NavigateCommand}" CommandParameter="DashboardView">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="HomeVariantOutline" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Dashboard"/>
+                                </StackPanel>
+                            </RadioButton>-->
+
+                            <RadioButton Style="{StaticResource menuButton}" Command="{Binding NavigateCommand}" CommandParameter="SchedulesView">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="CalendarMultiple" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Schedules"/>
+                                </StackPanel>
+                            </RadioButton>
+
+                            <RadioButton Style="{StaticResource menuButton}" Command="{Binding NavigateCommand}" CommandParameter="ClassesView">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="GoogleClassroom" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Classes"/>
+                                </StackPanel>
+                            </RadioButton>
+
+                            <RadioButton Style="{StaticResource menuButton}" Command="{Binding NavigateCommand}" CommandParameter="SubjectsView">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="Bookshelf" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Subjects"/>
+                                </StackPanel>
+                            </RadioButton>
+
+                            <RadioButton Style="{StaticResource menuButton}" Command="{Binding NavigateCommand}" CommandParameter="StudentsView">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="AccountMultiplePlusOutline" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Students"/>
+                                </StackPanel>
+                            </RadioButton>
+
+                            <RadioButton Style="{StaticResource menuButton}" Command="{Binding NavigateCommand}" CommandParameter="TeachersView">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="HumanMaleBoard" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Teachers"/>
+                                </StackPanel>
+                            </RadioButton>
+
+                            <RadioButton Style="{StaticResource menuButton}" Command="{Binding NavigateCommand}" CommandParameter="ClassroomsView">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="MapMarkerOutline" Style="{StaticResource menuButtonIcon}"/>
+                                    <TextBlock Text="Classrooms"/>
+                                </StackPanel>
+                            </RadioButton>
+                        </StackPanel>
+
+                        <!--<Button DockPanel.Dock="Top" Style="{StaticResource menuButton}" Command="{Binding NavigateCommand}" CommandParameter="SettingsView">
+                            <StackPanel Orientation="Horizontal">
+                                <Icon:PackIconMaterial Kind="CogOutline" Style="{StaticResource menuButtonIcon}"/>
+                                <TextBlock Text="Settings"/>
+                            </StackPanel>
+                        </Button>-->
+
+                        <Button DockPanel.Dock="Bottom" Style="{StaticResource menuButton2}">
+                            <StackPanel Orientation="Horizontal">
+                                <Icon:PackIconMaterial Kind="Logout" Style="{StaticResource menuButtonIcon}"/>
+                                <TextBlock Text="Logout"/>
+                            </StackPanel>
+                        </Button>
+
+                    </DockPanel>
+                </Border>
+
+            </Grid>
+
+            <!--Main Section-->
+            <Grid Grid.Column="1" Margin="30 20 20 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <!--Search Textbox-->
+                <Grid Width="300" HorizontalAlignment="Left">
+                    <TextBox Margin="20 0" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
+                             Panel.ZIndex="1" Text="Search here ..."
+                             Visibility="{Binding Text, Converter={StaticResource BoolToVis}, ElementName=txtSearch}"/>
+
+                    <TextBox x:Name="txtSearch" Style="{StaticResource textBoxSearch}"/>
+
+                    <Icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" VerticalAlignment="Center" Margin="0 0 15 0"
+                                           Foreground="#b0b9c6" HorizontalAlignment="Right"/>
+                </Grid>
+
+                <!--Top Button-->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Style="{StaticResource topButton}" Command="{Binding SaveCommand}" Margin="0 0 20 0" HorizontalAlignment="Right">
+                        <Icon:PackIconMaterial Kind="ContentSaveEditOutline"/>
+                    </Button>
+
+                    <Button Style="{StaticResource topButton}" Margin="0 0 20 0"  HorizontalAlignment="Right">
+                        <Icon:PackIconMaterial Kind="BellOutline"/>
+                    </Button>
+
+                    <Button Style="{StaticResource topButton}" Command="{Binding SettingCommand}" Margin="0 0 20 0" HorizontalAlignment="Right">
+                        <Icon:PackIconMaterial Kind="CogOutline"/>
+                    </Button>
+
+                </StackPanel>
+
+
+                <!--Page-->
+                <ContentControl Grid.Row="1" prism:RegionManager.RegionName="{x:Static extension:PrismManager.MainViewRegionName}"/>
+            </Grid>
+
+        </Grid>
+    </Border>
+</Window>

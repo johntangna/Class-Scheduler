@@ -1,0 +1,20 @@
+﻿Class_Scheduler
+
+
+winexe
+C#
+.cs
+E:\Coding\WPF Application\Class_Scheduler\Class_Scheduler\obj\Release\net5.0-windows\
+Class_Scheduler
+none
+false
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+E:\Coding\WPF Application\Class_Scheduler\Class_Scheduler\App.xaml
+21188471528
+
+71-1318385019
+2011860097604
+Styles\Styles.xaml;Views\AccountSettingsView.xaml;Views\CalendarView.xaml;Views\ClassroomsView.xaml;Views\DashboardView.xaml;Views\DialogView\AddLessonsDialogView.xaml;Views\DialogView\AddMembersDialogView.xaml;Views\DialogView\AddRoomsDialogView.xaml;Views\DialogView\AddStudentsDialogView.xaml;Views\DialogView\DeleteMembersDialogView.xaml;Views\DialogView\ModifyLessonsDialogView.xaml;Views\DialogView\ModifyRoomsDialogView.xaml;Views\DialogView\ModifyStudentsDialogView.xaml;Views\DialogView\ModifyTeachersDialogView.xaml;Views\DialogView\SettingsDialogView.xaml;Views\LessonsView.xaml;Views\MainView.xaml;Views\ScheduledCourseView.xaml;Views\SettingView.xaml;Views\StudentsView.xaml;Views\TeachersView.xaml;
+
+True
+

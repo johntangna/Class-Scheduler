@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\SchedulesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\AccountSettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\AdvanceSettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings\SettingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\DialogView\AddMembersDialogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ClassroomsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\DialogView\DeleteMembersDialogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\DialogView\ModifyStudentsDialogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SubjectsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\TeachersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Styles\Styles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\AddTeachersDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SchedulesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\AccountSettingsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\AdvanceSettingsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings\SettingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\ModifyRoomsDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\AddRoomsDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\ModifySubjectsDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\AddSubjectsDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\AddMembersDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ClassroomsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\DeleteMembersDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\AddStudentsDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\ModifyTeachersDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogView\ModifyStudentsDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ClassesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SubjectsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StudentsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TeachersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

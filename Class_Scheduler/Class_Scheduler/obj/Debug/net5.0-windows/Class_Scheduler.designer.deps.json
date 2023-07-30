@@ -1,0 +1,751 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "C1.Xaml.WPF/4.6.20232.790": {
+        "runtime": {
+          "lib/net462/C1.WPF.4.6.2.dll": {
+            "assemblyVersion": "4.6.20232.790",
+            "fileVersion": "4.6.20232.790"
+          }
+        },
+        "resources": {
+          "lib/net462/ar/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net462/cs/C1.WPF.4.6.2.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net462/da/C1.WPF.4.6.2.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net462/de/C1.WPF.4.6.2.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net462/el/C1.WPF.4.6.2.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net462/es/C1.WPF.4.6.2.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net462/fi/C1.WPF.4.6.2.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net462/fr/C1.WPF.4.6.2.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net462/he/C1.WPF.4.6.2.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net462/it/C1.WPF.4.6.2.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net462/ja/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net462/ko/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net462/nl/C1.WPF.4.6.2.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net462/no/C1.WPF.4.6.2.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net462/pl/C1.WPF.4.6.2.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net462/pt/C1.WPF.4.6.2.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net462/ro/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net462/ru/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net462/sk/C1.WPF.4.6.2.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net462/sv/C1.WPF.4.6.2.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net462/tr/C1.WPF.4.6.2.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net462/zh-Hans/C1.WPF.4.6.2.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net462/zh-Hant/C1.WPF.4.6.2.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net462/zh/C1.WPF.4.6.2.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.Xaml.WPF.DateTimeEditors/4.6.20232.790": {
+        "dependencies": {
+          "C1.Xaml.WPF": "4.6.20232.790"
+        },
+        "runtime": {
+          "lib/net462/C1.WPF.DateTimeEditors.4.6.2.dll": {
+            "assemblyVersion": "4.6.20232.790",
+            "fileVersion": "4.6.20232.790"
+          }
+        }
+      },
+      "C1.Xaml.WPF.Schedule/4.6.20232.790": {
+        "dependencies": {
+          "C1.Xaml.WPF": "4.6.20232.790",
+          "C1.Xaml.WPF.DateTimeEditors": "4.6.20232.790"
+        },
+        "runtime": {
+          "lib/net462/C1.WPF.Schedule.4.6.2.dll": {
+            "assemblyVersion": "4.6.20232.790",
+            "fileVersion": "4.6.20232.790"
+          }
+        },
+        "resources": {
+          "lib/net462/ar/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net462/cs/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net462/da/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net462/de/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net462/el/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net462/es/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net462/fi/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net462/fr/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net462/he/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net462/it/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net462/ja/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net462/ko/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net462/nl/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net462/no/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net462/pl/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net462/pt/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net462/ro/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net462/ru/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net462/sk/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net462/sv/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net462/tr/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net462/zh-Hans/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net462/zh-Hant/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net462/zh/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "DryIoc.dll/4.7.7": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DryIoc.dll": {
+            "assemblyVersion": "4.7.7.0",
+            "fileVersion": "4.7.7.0"
+          }
+        }
+      },
+      "ExcelDataReader/3.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "ExcelDataReader.DataSet/3.6.0": {
+        "dependencies": {
+          "ExcelDataReader": "3.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.DataSet.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Material/4.11.0": {
+        "runtime": {
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.11.0.12"
+          },
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.11.0.12"
+          }
+        }
+      },
+      "MaterialDesignColors/2.1.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.9.0": {
+        "dependencies": {
+          "MaterialDesignColors": "2.1.4",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      },
+      "MindFusion.Diagramming.Wpf/3.9.3": {
+        "runtime": {
+          "lib/net5.0-windows7/MindFusion.Barcodes.dll": {
+            "assemblyVersion": "1.0.3.500",
+            "fileVersion": "1.0.3.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Common.Wpf.dll": {
+            "assemblyVersion": "1.0.2.500",
+            "fileVersion": "1.0.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Common.dll": {
+            "assemblyVersion": "1.3.2.500",
+            "fileVersion": "1.3.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgImport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.dll": {
+            "assemblyVersion": "3.9.3.501",
+            "fileVersion": "3.9.3.501"
+          },
+          "lib/net5.0-windows7/MindFusion.Graphs.dll": {
+            "assemblyVersion": "2.3.2.500",
+            "fileVersion": "2.3.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Licensing.dll": {
+            "assemblyVersion": "1.0.6.500",
+            "fileVersion": "1.0.6.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Pdf.dll": {
+            "assemblyVersion": "1.3.2.500",
+            "fileVersion": "1.3.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Scripting.dll": {
+            "assemblyVersion": "1.0.2.500",
+            "fileVersion": "1.0.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Svg.Wpf.dll": {
+            "assemblyVersion": "1.2.2.500",
+            "fileVersion": "1.2.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Svg.dll": {
+            "assemblyVersion": "1.2.2.500",
+            "fileVersion": "1.2.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Vsx.dll": {
+            "assemblyVersion": "1.0.3.500",
+            "fileVersion": "1.0.3.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Zip.dll": {
+            "assemblyVersion": "1.0.1.500",
+            "fileVersion": "1.0.1.500"
+          }
+        }
+      },
+      "MindFusion.Scheduling.Wpf/3.5.2": {
+        "runtime": {
+          "lib/net5.0-windows7/MindFusion.Common.Wpf.dll": {
+            "assemblyVersion": "1.0.2.500",
+            "fileVersion": "1.0.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Common.dll": {
+            "assemblyVersion": "1.3.2.500",
+            "fileVersion": "1.3.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.DataViews.Wpf.dll": {
+            "assemblyVersion": "1.0.5.500",
+            "fileVersion": "1.0.5.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Excel.Wpf.dll": {
+            "assemblyVersion": "1.0.1.500",
+            "fileVersion": "1.0.1.500"
+          },
+          "lib/net5.0-windows7/MindFusion.HolidayProviders.dll": {
+            "assemblyVersion": "1.0.2.500",
+            "fileVersion": "1.0.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Licensing.dll": {
+            "assemblyVersion": "1.0.6.500",
+            "fileVersion": "1.0.6.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Pdf.dll": {
+            "assemblyVersion": "1.3.2.500",
+            "fileVersion": "1.3.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.Excel.dll": {
+            "assemblyVersion": "3.5.2.500",
+            "fileVersion": "3.5.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.Reporting.dll": {
+            "assemblyVersion": "3.5.2.500",
+            "fileVersion": "3.5.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.StandardForms.dll": {
+            "assemblyVersion": "3.5.2.500",
+            "fileVersion": "3.5.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.dll": {
+            "assemblyVersion": "3.5.2.500",
+            "fileVersion": "3.5.2.500"
+          },
+          "lib/net5.0-windows7/MindFusion.Zip.dll": {
+            "assemblyVersion": "1.0.1.500",
+            "fileVersion": "1.0.1.500"
+          }
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "runtime": {
+          "lib/net5.0/Prism.dll": {
+            "assemblyVersion": "8.1.97.5141",
+            "fileVersion": "8.1.97.5141"
+          }
+        }
+      },
+      "Prism.DryIoc/8.1.97": {
+        "dependencies": {
+          "DryIoc.dll": "4.7.7",
+          "Prism.Wpf": "8.1.97"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Prism.DryIoc.Wpf.dll": {
+            "assemblyVersion": "8.1.97.5141",
+            "fileVersion": "8.1.97.5141"
+          }
+        }
+      },
+      "Prism.Wpf/8.1.97": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
+          "Prism.Core": "8.1.97"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Prism.Wpf.dll": {
+            "assemblyVersion": "8.1.97.5141",
+            "fileVersion": "8.1.97.5141"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Memory/4.5.5": {},
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Text.Encoding.CodePages/7.0.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "C1.Xaml.WPF/4.6.20232.790": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aK7q3hNm5LixA0gkIaMKKlr4Kn3OJXr5hneB3ikPeHUpHUVgxyG9MWq8Ilyo6tUVdRIdlB0y5hjC0xmUmQz9dQ==",
+      "path": "c1.xaml.wpf/4.6.20232.790",
+      "hashPath": "c1.xaml.wpf.4.6.20232.790.nupkg.sha512"
+    },
+    "C1.Xaml.WPF.DateTimeEditors/4.6.20232.790": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ntrNyJpZ47m10DUdy4l7K9pXR3obeTSEqtRtI8BUQHW/xna9mFgK9Q8tulQgti6I8cbXhqdOz7mwJTJN5DW3WA==",
+      "path": "c1.xaml.wpf.datetimeeditors/4.6.20232.790",
+      "hashPath": "c1.xaml.wpf.datetimeeditors.4.6.20232.790.nupkg.sha512"
+    },
+    "C1.Xaml.WPF.Schedule/4.6.20232.790": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y/jJNYqNUS6PHqaqF4nSDmuFuq5ISOtaDtotIFaEdOXGPca1yZza+UmRO710cbmVUPGZbjaxLLH3dhlm6mebDA==",
+      "path": "c1.xaml.wpf.schedule/4.6.20232.790",
+      "hashPath": "c1.xaml.wpf.schedule.4.6.20232.790.nupkg.sha512"
+    },
+    "DryIoc.dll/4.7.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GC2JdW0mN3wTcbcteP7LWwfU1eao0If/vMozCXSbcNZbHQD7kBjcKFO82g0OLssr7gGPWS4+vWpNZ1oOy54JKw==",
+      "path": "dryioc.dll/4.7.7",
+      "hashPath": "dryioc.dll.4.7.7.nupkg.sha512"
+    },
+    "ExcelDataReader/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eXyxTwG7EEWpgQX3juZ2KcndqTqm/ydx9GXS2lUiMJU54U4h5eXdygRtVgINv0t60ezPWEb+lL7uM7Q+wm5BBA==",
+      "path": "exceldatareader/3.6.0",
+      "hashPath": "exceldatareader.3.6.0.nupkg.sha512"
+    },
+    "ExcelDataReader.DataSet/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-miW3sWmPXnLM38YadRIfnhL4W4QZajpS6Q/OqsOpFJU5ct8h+M/fMpbGMm5INtsMP0Y1k0WK0stIfSW3RP31Xg==",
+      "path": "exceldatareader.dataset/3.6.0",
+      "hashPath": "exceldatareader.dataset.3.6.0.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Material/4.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZCuuxWHvXxl39XBYXk4PCMUVtw1pevT5AE1qsj7VRy2tRtDYbzHWYW0FbnH+Vf0rP7BogZrRlKns3zFEkDEjFQ==",
+      "path": "mahapps.metro.iconpacks.material/4.11.0",
+      "hashPath": "mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512"
+    },
+    "MaterialDesignColors/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C4Oy+qkjMoMPoZKyqYdCnIYtK8c0OSIHmNP73Vgc69NjiUG093xTkE7W/Ks54cTDS7fmWOtUHfwISTVTtb/YKg==",
+      "path": "materialdesigncolors/2.1.4",
+      "hashPath": "materialdesigncolors.2.1.4.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bp9Auw70j+9V7WsUMT4pc8ulVzfL0Eav/tyGgICDirxxhKJwhqtC/6PRkTUm+R1t9611xiDuk5pSUNdDV6vfOQ==",
+      "path": "materialdesignthemes/4.9.0",
+      "hashPath": "materialdesignthemes.4.9.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    },
+    "MindFusion.Diagramming.Wpf/3.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F8Bo/ib7bnWeVGQS4Q2L+0uSPw/NCAxhietp0rdKaJTlLH3sksb0Nm4YDrPEGmTPoHLYuVChNfiXTwMaW+GMow==",
+      "path": "mindfusion.diagramming.wpf/3.9.3",
+      "hashPath": "mindfusion.diagramming.wpf.3.9.3.nupkg.sha512"
+    },
+    "MindFusion.Scheduling.Wpf/3.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4zQj2UyRMHBOXUJMS0Vr+D1Oiwa3CIFJZwjo/gPtA5WI4y65oOeVuclHjUSvcbP58KQQ6J6ZKCE0rAH4cVGczg==",
+      "path": "mindfusion.scheduling.wpf/3.5.2",
+      "hashPath": "mindfusion.scheduling.wpf.3.5.2.nupkg.sha512"
+    },
+    "Prism.Core/8.1.97": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EP5zrvWddw3eSq25Y7hHnDYdmLZEC2Z/gMrvmHzUuLbitmA1UaS7wQUlSwNr9Km8lzJNCvytFnaGBEFukHgoHg==",
+      "path": "prism.core/8.1.97",
+      "hashPath": "prism.core.8.1.97.nupkg.sha512"
+    },
+    "Prism.DryIoc/8.1.97": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8hdeAoZ+x1eBNIg+nMzox01uGUR4HnbCCR1iClNKwDfCWQ4ZtjEjsyeTXHcXKtG45xXqiERmJVew5tJmCdVPWw==",
+      "path": "prism.dryioc/8.1.97",
+      "hashPath": "prism.dryioc.8.1.97.nupkg.sha512"
+    },
+    "Prism.Wpf/8.1.97": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZEa6S1mK35h8/blyb0uR0ed3wkpHtPdhB4eniXINJnTiJMWlGl/As6SVlFFdOPD+qsEdWNYV3xgyQD/ue5cvBA==",
+      "path": "prism.wpf/8.1.97",
+      "hashPath": "prism.wpf.8.1.97.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "hashPath": "system.text.encoding.codepages.7.0.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Class_Scheduler",
+    "\\Class_Scheduler\\Extensions",
+    "\\Class_Scheduler\\Service",
+    "\\Class_Scheduler\\ViewModels",
+    "\\Class_Scheduler\\Views"
+  ],
+  "SelectedNode": "\\Class_Scheduler\\Views\\AccountSettingsView.xaml.cs",
+  "PreviewInSolutionExplorer": false
+}

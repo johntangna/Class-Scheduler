@@ -1,0 +1,2333 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "AutoMapper/12.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "C1.Xaml.WPF/4.6.20232.790": {
+        "type": "package",
+        "compile": {
+          "lib/net462/C1.WPF.4.6.2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/C1.WPF.4.6.2.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net462/ar/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net462/cs/C1.WPF.4.6.2.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net462/da/C1.WPF.4.6.2.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net462/de/C1.WPF.4.6.2.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net462/el/C1.WPF.4.6.2.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net462/es/C1.WPF.4.6.2.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net462/fi/C1.WPF.4.6.2.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net462/fr/C1.WPF.4.6.2.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net462/he/C1.WPF.4.6.2.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net462/it/C1.WPF.4.6.2.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net462/ja/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net462/ko/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net462/nl/C1.WPF.4.6.2.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net462/no/C1.WPF.4.6.2.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net462/pl/C1.WPF.4.6.2.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net462/pt/C1.WPF.4.6.2.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net462/ro/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net462/ru/C1.WPF.4.6.2.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net462/sk/C1.WPF.4.6.2.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net462/sv/C1.WPF.4.6.2.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net462/tr/C1.WPF.4.6.2.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net462/zh-Hans/C1.WPF.4.6.2.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net462/zh-Hant/C1.WPF.4.6.2.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net462/zh/C1.WPF.4.6.2.resources.dll": {
+            "locale": "zh"
+          }
+        },
+        "build": {
+          "buildTransitive/net462/C1.Xaml.WPF.targets": {}
+        }
+      },
+      "C1.Xaml.WPF.DateTimeEditors/4.6.20232.790": {
+        "type": "package",
+        "dependencies": {
+          "C1.Xaml.WPF": "[4.6.20232.790]"
+        },
+        "compile": {
+          "lib/net462/C1.WPF.DateTimeEditors.4.6.2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/C1.WPF.DateTimeEditors.4.6.2.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net462/C1.Xaml.WPF.DateTimeEditors.targets": {}
+        }
+      },
+      "C1.Xaml.WPF.Schedule/4.6.20232.790": {
+        "type": "package",
+        "dependencies": {
+          "C1.Xaml.WPF": "[4.6.20232.790]",
+          "C1.Xaml.WPF.DateTimeEditors": "[4.6.20232.790]"
+        },
+        "compile": {
+          "lib/net462/C1.WPF.Schedule.4.6.2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/C1.WPF.Schedule.4.6.2.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net462/ar/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net462/cs/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net462/da/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net462/de/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net462/el/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net462/es/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net462/fi/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net462/fr/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net462/he/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net462/it/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net462/ja/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net462/ko/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net462/nl/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net462/no/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net462/pl/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net462/pt/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net462/ro/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net462/ru/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net462/sk/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net462/sv/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net462/tr/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net462/zh-Hans/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net462/zh-Hant/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net462/zh/C1.WPF.Schedule.4.6.2.resources.dll": {
+            "locale": "zh"
+          }
+        },
+        "build": {
+          "buildTransitive/net462/C1.Xaml.WPF.Schedule.targets": {}
+        }
+      },
+      "DryIoc.dll/4.7.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DryIoc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DryIoc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ExcelDataReader/3.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ExcelDataReader.DataSet/3.6.0": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDataReader": "3.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExcelDataReader.DataSet.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExcelDataReader.DataSet.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Material/4.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignColors/2.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "2.1.4",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/MaterialDesignThemes.targets": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MindFusion.Diagramming.Wpf/3.9.3": {
+        "type": "package",
+        "compile": {
+          "ref/net5.0-windows7/MindFusion.Barcodes.dll": {},
+          "ref/net5.0-windows7/MindFusion.Common.Wpf.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgImport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.dll": {},
+          "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.dll": {},
+          "ref/net5.0-windows7/MindFusion.Graphs.dll": {},
+          "ref/net5.0-windows7/MindFusion.Licensing.dll": {},
+          "ref/net5.0-windows7/MindFusion.Pdf.dll": {},
+          "ref/net5.0-windows7/MindFusion.Scripting.dll": {},
+          "ref/net5.0-windows7/MindFusion.Svg.Wpf.dll": {},
+          "ref/net5.0-windows7/MindFusion.Svg.dll": {},
+          "ref/net5.0-windows7/MindFusion.Vsx.dll": {},
+          "ref/net5.0-windows7/MindFusion.Zip.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7/MindFusion.Barcodes.dll": {},
+          "lib/net5.0-windows7/MindFusion.Common.Wpf.dll": {},
+          "lib/net5.0-windows7/MindFusion.Common.dll": {},
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.dll": {
+            "related": ".xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.dll": {
+            "related": ".xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.dll": {
+            "related": ".xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.dll": {
+            "related": ".xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.dll": {
+            "related": ".xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgImport.dll": {},
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.dll": {
+            "related": ".xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.dll": {
+            "related": ".xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.dll": {
+            "related": ".xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.dll": {
+            "related": ".DrawImport.xml;.DxfExport.xml;.ExcelExport.xml;.PdfExport.xml;.SvgExport.xml;.VisioExport.xml;.VisioImport.xml;.WmfExport.xml;.xml"
+          },
+          "lib/net5.0-windows7/MindFusion.Graphs.dll": {},
+          "lib/net5.0-windows7/MindFusion.Licensing.dll": {},
+          "lib/net5.0-windows7/MindFusion.Pdf.dll": {},
+          "lib/net5.0-windows7/MindFusion.Scripting.dll": {},
+          "lib/net5.0-windows7/MindFusion.Svg.Wpf.dll": {},
+          "lib/net5.0-windows7/MindFusion.Svg.dll": {},
+          "lib/net5.0-windows7/MindFusion.Vsx.dll": {},
+          "lib/net5.0-windows7/MindFusion.Zip.dll": {}
+        }
+      },
+      "MindFusion.Scheduling.Wpf/3.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/net5.0-windows7/MindFusion.Common.Wpf.dll": {},
+          "ref/net5.0-windows7/MindFusion.Common.dll": {},
+          "ref/net5.0-windows7/MindFusion.DataViews.Wpf.dll": {},
+          "ref/net5.0-windows7/MindFusion.Excel.Wpf.dll": {},
+          "ref/net5.0-windows7/MindFusion.HolidayProviders.dll": {},
+          "ref/net5.0-windows7/MindFusion.Licensing.dll": {},
+          "ref/net5.0-windows7/MindFusion.Pdf.dll": {},
+          "ref/net5.0-windows7/MindFusion.Scheduling.Wpf.Excel.dll": {},
+          "ref/net5.0-windows7/MindFusion.Scheduling.Wpf.Reporting.dll": {},
+          "ref/net5.0-windows7/MindFusion.Scheduling.Wpf.StandardForms.dll": {},
+          "ref/net5.0-windows7/MindFusion.Scheduling.Wpf.dll": {},
+          "ref/net5.0-windows7/MindFusion.UI.Wpf.dll": {},
+          "ref/net5.0-windows7/MindFusion.Zip.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7/MindFusion.Common.Wpf.dll": {},
+          "lib/net5.0-windows7/MindFusion.Common.dll": {},
+          "lib/net5.0-windows7/MindFusion.DataViews.Wpf.dll": {},
+          "lib/net5.0-windows7/MindFusion.Excel.Wpf.dll": {},
+          "lib/net5.0-windows7/MindFusion.HolidayProviders.dll": {},
+          "lib/net5.0-windows7/MindFusion.Licensing.dll": {},
+          "lib/net5.0-windows7/MindFusion.Pdf.dll": {},
+          "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.Excel.dll": {},
+          "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.Reporting.dll": {},
+          "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.StandardForms.dll": {},
+          "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.dll": {},
+          "lib/net5.0-windows7/MindFusion.Zip.dll": {}
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Prism.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Prism.DryIoc/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "DryIoc.dll": "4.7.7",
+          "Prism.Wpf": "8.1.97"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/Prism.DryIoc.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Prism.DryIoc.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Prism.Wpf/8.1.97": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.31",
+          "Prism.Core": "8.1.97"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Prism.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "System.IO/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/System.IO.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Reflection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/System.Reflection.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Text.Encoding.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets": {}
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Threading.Tasks.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/12.0.1": {
+      "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "type": "package",
+      "path": "automapper/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "C1.Xaml.WPF/4.6.20232.790": {
+      "sha512": "aK7q3hNm5LixA0gkIaMKKlr4Kn3OJXr5hneB3ikPeHUpHUVgxyG9MWq8Ilyo6tUVdRIdlB0y5hjC0xmUmQz9dQ==",
+      "type": "package",
+      "path": "c1.xaml.wpf/4.6.20232.790",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Third party licenses/CMap.txt",
+        "Third party licenses/FJCore.txt",
+        "Third party licenses/Independent JPEG Group.txt",
+        "Third party licenses/Java Advanced Imaging IO.txt",
+        "Third party licenses/Java Pdf Extraction Decoding Access Library.txt",
+        "Third party licenses/Managed JPEG2000 Codec.txt",
+        "Third party licenses/Okapi Barcode.txt",
+        "Third party licenses/Prologue.txt",
+        "Third party licenses/SharpDX.txt",
+        "Third party licenses/Silverlight Toolkit.txt",
+        "Third party licenses/Validator.nu HTML Parser.txt",
+        "Third party licenses/WriteableBitmapEx.txt",
+        "Third party licenses/Zebra Crossing.txt",
+        "buildTransitive/net462/C1.Xaml.WPF.targets",
+        "c1.xaml.wpf.4.6.20232.790.nupkg.sha512",
+        "c1.xaml.wpf.nuspec",
+        "docs/README.md",
+        "images/icon.png",
+        "lib/net462/C1.WPF.4.6.2.dll",
+        "lib/net462/C1.WPF.4.6.2.xml",
+        "lib/net462/Design/C1.WPF.4.6.2.DesignTools.16.10.dll",
+        "lib/net462/Design/C1.WPF.4.6.2.DesignTools.dll",
+        "lib/net462/Design/C1.WPF.4.6.2.Expression.Design.4.0.3.dll",
+        "lib/net462/Design/C1.WPF.4.6.2.Expression.Design.dll",
+        "lib/net462/Design/C1.WPF.4.6.2.VisualStudio.Design.4.0.3.dll",
+        "lib/net462/Design/C1.WPF.4.6.2.VisualStudio.Design.dll",
+        "lib/net462/ar/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/cs/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/da/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/de/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/el/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/es/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/fi/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/fr/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/he/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/it/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/ja/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/ko/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/nl/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/no/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/pl/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/pt/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/ro/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/ru/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/sk/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/sv/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/tr/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/zh-Hans/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/zh-Hant/C1.WPF.4.6.2.resources.dll",
+        "lib/net462/zh/C1.WPF.4.6.2.resources.dll",
+        "license_EN.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "C1.Xaml.WPF.DateTimeEditors/4.6.20232.790": {
+      "sha512": "ntrNyJpZ47m10DUdy4l7K9pXR3obeTSEqtRtI8BUQHW/xna9mFgK9Q8tulQgti6I8cbXhqdOz7mwJTJN5DW3WA==",
+      "type": "package",
+      "path": "c1.xaml.wpf.datetimeeditors/4.6.20232.790",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Third party licenses/CMap.txt",
+        "Third party licenses/FJCore.txt",
+        "Third party licenses/Independent JPEG Group.txt",
+        "Third party licenses/Java Advanced Imaging IO.txt",
+        "Third party licenses/Java Pdf Extraction Decoding Access Library.txt",
+        "Third party licenses/Managed JPEG2000 Codec.txt",
+        "Third party licenses/Okapi Barcode.txt",
+        "Third party licenses/Prologue.txt",
+        "Third party licenses/SharpDX.txt",
+        "Third party licenses/Silverlight Toolkit.txt",
+        "Third party licenses/Validator.nu HTML Parser.txt",
+        "Third party licenses/WriteableBitmapEx.txt",
+        "Third party licenses/Zebra Crossing.txt",
+        "buildTransitive/net462/C1.Xaml.WPF.DateTimeEditors.targets",
+        "c1.xaml.wpf.datetimeeditors.4.6.20232.790.nupkg.sha512",
+        "c1.xaml.wpf.datetimeeditors.nuspec",
+        "docs/README.md",
+        "images/icon.png",
+        "lib/net462/C1.WPF.DateTimeEditors.4.6.2.dll",
+        "lib/net462/C1.WPF.DateTimeEditors.4.6.2.xml",
+        "lib/net462/Design/C1.WPF.DateTimeEditors.4.6.2.DesignTools.16.10.dll",
+        "lib/net462/Design/C1.WPF.DateTimeEditors.4.6.2.DesignTools.dll",
+        "lib/net462/Design/C1.WPF.DateTimeEditors.4.6.2.Expression.Design.4.0.3.dll",
+        "lib/net462/Design/C1.WPF.DateTimeEditors.4.6.2.Expression.Design.dll",
+        "lib/net462/Design/C1.WPF.DateTimeEditors.4.6.2.VisualStudio.Design.4.0.3.dll",
+        "lib/net462/Design/C1.WPF.DateTimeEditors.4.6.2.VisualStudio.Design.dll",
+        "license_EN.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "C1.Xaml.WPF.Schedule/4.6.20232.790": {
+      "sha512": "Y/jJNYqNUS6PHqaqF4nSDmuFuq5ISOtaDtotIFaEdOXGPca1yZza+UmRO710cbmVUPGZbjaxLLH3dhlm6mebDA==",
+      "type": "package",
+      "path": "c1.xaml.wpf.schedule/4.6.20232.790",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Third party licenses/CMap.txt",
+        "Third party licenses/FJCore.txt",
+        "Third party licenses/Independent JPEG Group.txt",
+        "Third party licenses/Java Advanced Imaging IO.txt",
+        "Third party licenses/Java Pdf Extraction Decoding Access Library.txt",
+        "Third party licenses/Managed JPEG2000 Codec.txt",
+        "Third party licenses/Okapi Barcode.txt",
+        "Third party licenses/Prologue.txt",
+        "Third party licenses/SharpDX.txt",
+        "Third party licenses/Silverlight Toolkit.txt",
+        "Third party licenses/Validator.nu HTML Parser.txt",
+        "Third party licenses/WriteableBitmapEx.txt",
+        "Third party licenses/Zebra Crossing.txt",
+        "buildTransitive/net462/C1.Xaml.WPF.Schedule.targets",
+        "c1.xaml.wpf.schedule.4.6.20232.790.nupkg.sha512",
+        "c1.xaml.wpf.schedule.nuspec",
+        "docs/README.md",
+        "images/icon.png",
+        "lib/net462/C1.WPF.Schedule.4.6.2.dll",
+        "lib/net462/C1.WPF.Schedule.4.6.2.xml",
+        "lib/net462/C1.WPF.Schedule.4.6.2/Resources/appointment.png",
+        "lib/net462/C1.WPF.Schedule.4.6.2/Resources/ding.mp3",
+        "lib/net462/Design/C1.WPF.Schedule.4.6.2.DesignTools.16.10.dll",
+        "lib/net462/Design/C1.WPF.Schedule.4.6.2.DesignTools.dll",
+        "lib/net462/Design/C1.WPF.Schedule.4.6.2.Expression.Design.4.0.3.dll",
+        "lib/net462/Design/C1.WPF.Schedule.4.6.2.Expression.Design.dll",
+        "lib/net462/Design/C1.WPF.Schedule.4.6.2.VisualStudio.Design.4.0.3.dll",
+        "lib/net462/Design/C1.WPF.Schedule.4.6.2.VisualStudio.Design.dll",
+        "lib/net462/ar/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/cs/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/da/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/de/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/el/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/es/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/fi/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/fr/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/he/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/it/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/ja/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/ko/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/nl/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/no/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/pl/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/pt/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/ro/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/ru/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/sk/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/sv/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/tr/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/zh-Hans/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/zh-Hant/C1.WPF.Schedule.4.6.2.resources.dll",
+        "lib/net462/zh/C1.WPF.Schedule.4.6.2.resources.dll",
+        "license_EN.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DryIoc.dll/4.7.7": {
+      "sha512": "GC2JdW0mN3wTcbcteP7LWwfU1eao0If/vMozCXSbcNZbHQD7kBjcKFO82g0OLssr7gGPWS4+vWpNZ1oOy54JKw==",
+      "type": "package",
+      "path": "dryioc.dll/4.7.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "DryIoc.snk",
+        "LICENSE.txt",
+        "dryioc.dll.4.7.7.nupkg.sha512",
+        "dryioc.dll.nuspec",
+        "icon.png",
+        "lib/net35/DryIoc.dll",
+        "lib/net35/DryIoc.xml",
+        "lib/net40/DryIoc.dll",
+        "lib/net40/DryIoc.xml",
+        "lib/net45/DryIoc.dll",
+        "lib/net45/DryIoc.xml",
+        "lib/netstandard1.0/DryIoc.dll",
+        "lib/netstandard1.0/DryIoc.xml",
+        "lib/netstandard1.3/DryIoc.dll",
+        "lib/netstandard1.3/DryIoc.xml",
+        "lib/netstandard2.0/DryIoc.dll",
+        "lib/netstandard2.0/DryIoc.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/DryIoc.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/DryIoc.xml",
+        "lib/portable-net45+win8+wp8+wpa81/DryIoc.dll",
+        "lib/portable-net45+win8+wp8+wpa81/DryIoc.xml",
+        "readme.txt"
+      ]
+    },
+    "ExcelDataReader/3.6.0": {
+      "sha512": "eXyxTwG7EEWpgQX3juZ2KcndqTqm/ydx9GXS2lUiMJU54U4h5eXdygRtVgINv0t60ezPWEb+lL7uM7Q+wm5BBA==",
+      "type": "package",
+      "path": "exceldatareader/3.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldatareader.3.6.0.nupkg.sha512",
+        "exceldatareader.nuspec",
+        "lib/net20/ExcelDataReader.dll",
+        "lib/net20/ExcelDataReader.pdb",
+        "lib/net20/ExcelDataReader.xml",
+        "lib/net45/ExcelDataReader.dll",
+        "lib/net45/ExcelDataReader.pdb",
+        "lib/net45/ExcelDataReader.xml",
+        "lib/netstandard1.3/ExcelDataReader.dll",
+        "lib/netstandard1.3/ExcelDataReader.pdb",
+        "lib/netstandard1.3/ExcelDataReader.xml",
+        "lib/netstandard2.0/ExcelDataReader.dll",
+        "lib/netstandard2.0/ExcelDataReader.pdb",
+        "lib/netstandard2.0/ExcelDataReader.xml"
+      ]
+    },
+    "ExcelDataReader.DataSet/3.6.0": {
+      "sha512": "miW3sWmPXnLM38YadRIfnhL4W4QZajpS6Q/OqsOpFJU5ct8h+M/fMpbGMm5INtsMP0Y1k0WK0stIfSW3RP31Xg==",
+      "type": "package",
+      "path": "exceldatareader.dataset/3.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldatareader.dataset.3.6.0.nupkg.sha512",
+        "exceldatareader.dataset.nuspec",
+        "lib/net20/ExcelDataReader.DataSet.dll",
+        "lib/net20/ExcelDataReader.DataSet.pdb",
+        "lib/net20/ExcelDataReader.DataSet.xml",
+        "lib/net35/ExcelDataReader.DataSet.dll",
+        "lib/net35/ExcelDataReader.DataSet.pdb",
+        "lib/net35/ExcelDataReader.DataSet.xml",
+        "lib/netstandard2.0/ExcelDataReader.DataSet.dll",
+        "lib/netstandard2.0/ExcelDataReader.DataSet.pdb",
+        "lib/netstandard2.0/ExcelDataReader.DataSet.xml"
+      ]
+    },
+    "MahApps.Metro.IconPacks.Material/4.11.0": {
+      "sha512": "ZCuuxWHvXxl39XBYXk4PCMUVtw1pevT5AE1qsj7VRy2tRtDYbzHWYW0FbnH+Vf0rP7BogZrRlKns3zFEkDEjFQ==",
+      "type": "package",
+      "path": "mahapps.metro.iconpacks.material/4.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net45/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net45/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/net45/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net46/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net46/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/net46/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/net47/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/net5.0-windows7.0/MahApps.Metro.IconPacks.Material.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Core.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Material.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.IconPacks.Material.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Material.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Material.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Core.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.dll",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.pdb",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.pri",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material.xml",
+        "lib/uap10.0.16299/MahApps.Metro.IconPacks.Material/MahApps.Metro.IconPacks.Material.xr.xml",
+        "logo_small.png",
+        "mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.material.nuspec"
+      ]
+    },
+    "MaterialDesignColors/2.1.4": {
+      "sha512": "C4Oy+qkjMoMPoZKyqYdCnIYtK8c0OSIHmNP73Vgc69NjiUG093xTkE7W/Ks54cTDS7fmWOtUHfwISTVTtb/YKg==",
+      "type": "package",
+      "path": "materialdesigncolors/2.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/MaterialDesignColors.Icon.png",
+        "lib/net462/MaterialDesignColors.dll",
+        "lib/net462/MaterialDesignColors.pdb",
+        "lib/net6.0/MaterialDesignColors.dll",
+        "lib/net6.0/MaterialDesignColors.pdb",
+        "lib/net7.0/MaterialDesignColors.dll",
+        "lib/net7.0/MaterialDesignColors.pdb",
+        "lib/netcoreapp3.1/MaterialDesignColors.dll",
+        "lib/netcoreapp3.1/MaterialDesignColors.pdb",
+        "materialdesigncolors.2.1.4.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/4.9.0": {
+      "sha512": "Bp9Auw70j+9V7WsUMT4pc8ulVzfL0Eav/tyGgICDirxxhKJwhqtC/6PRkTUm+R1t9611xiDuk5pSUNdDV6vfOQ==",
+      "type": "package",
+      "path": "materialdesignthemes/4.9.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MaterialDesignThemes.targets",
+        "build/Resources/Roboto/Roboto-Black.ttf",
+        "build/Resources/Roboto/Roboto-BlackItalic.ttf",
+        "build/Resources/Roboto/Roboto-Bold.ttf",
+        "build/Resources/Roboto/Roboto-BoldItalic.ttf",
+        "build/Resources/Roboto/Roboto-Italic.ttf",
+        "build/Resources/Roboto/Roboto-Light.ttf",
+        "build/Resources/Roboto/Roboto-LightItalic.ttf",
+        "build/Resources/Roboto/Roboto-Medium.ttf",
+        "build/Resources/Roboto/Roboto-MediumItalic.ttf",
+        "build/Resources/Roboto/Roboto-Regular.ttf",
+        "build/Resources/Roboto/Roboto-Thin.ttf",
+        "build/Resources/Roboto/Roboto-ThinItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Bold.ttf",
+        "build/Resources/Roboto/RobotoCondensed-BoldItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Italic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Light.ttf",
+        "build/Resources/Roboto/RobotoCondensed-LightItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Regular.ttf",
+        "images/MaterialDesignThemes.Icon.png",
+        "lib/net462/MaterialDesignThemes.Wpf.dll",
+        "lib/net462/MaterialDesignThemes.Wpf.pdb",
+        "lib/net462/MaterialDesignThemes.Wpf.xml",
+        "lib/net6.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net6.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net6.0/MaterialDesignThemes.Wpf.xml",
+        "lib/net7.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net7.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net7.0/MaterialDesignThemes.Wpf.xml",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.pdb",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.xml",
+        "materialdesignthemes.4.9.0.nupkg.sha512",
+        "materialdesignthemes.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "type": "package",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.targets.1.1.0.nupkg.sha512",
+        "microsoft.netcore.targets.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "sha512": "8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/net5.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.1/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "MindFusion.Diagramming.Wpf/3.9.3": {
+      "sha512": "F8Bo/ib7bnWeVGQS4Q2L+0uSPw/NCAxhietp0rdKaJTlLH3sksb0Nm4YDrPEGmTPoHLYuVChNfiXTwMaW+GMow==",
+      "type": "package",
+      "path": "mindfusion.diagramming.wpf/3.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MindFusion.Barcodes.dll",
+        "lib/net45/MindFusion.Common.Wpf.Design.dll",
+        "lib/net45/MindFusion.Common.Wpf.dll",
+        "lib/net45/MindFusion.Common.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.DataBinding.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.Design.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.DrawImport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.DrawImport.xml",
+        "lib/net45/MindFusion.Diagramming.Wpf.DxfExport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.DxfExport.xml",
+        "lib/net45/MindFusion.Diagramming.Wpf.ExcelExport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.ExcelExport.xml",
+        "lib/net45/MindFusion.Diagramming.Wpf.PdfExport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.PdfExport.xml",
+        "lib/net45/MindFusion.Diagramming.Wpf.SvgExport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.SvgExport.xml",
+        "lib/net45/MindFusion.Diagramming.Wpf.SvgImport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.VisioExport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.VisioExport.xml",
+        "lib/net45/MindFusion.Diagramming.Wpf.VisioImport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.VisioImport.xml",
+        "lib/net45/MindFusion.Diagramming.Wpf.WmfExport.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.WmfExport.xml",
+        "lib/net45/MindFusion.Diagramming.Wpf.dll",
+        "lib/net45/MindFusion.Diagramming.Wpf.xml",
+        "lib/net45/MindFusion.Graphs.dll",
+        "lib/net45/MindFusion.Licensing.dll",
+        "lib/net45/MindFusion.Pdf.dll",
+        "lib/net45/MindFusion.Scripting.dll",
+        "lib/net45/MindFusion.Svg.Wpf.dll",
+        "lib/net45/MindFusion.Svg.dll",
+        "lib/net45/MindFusion.Vsx.dll",
+        "lib/net45/MindFusion.Zip.dll",
+        "lib/net5.0-windows7/MindFusion.Barcodes.dll",
+        "lib/net5.0-windows7/MindFusion.Common.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.Common.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.xml",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.xml",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.xml",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.xml",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.xml",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgImport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.xml",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.xml",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.xml",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.Diagramming.Wpf.xml",
+        "lib/net5.0-windows7/MindFusion.Graphs.dll",
+        "lib/net5.0-windows7/MindFusion.Licensing.dll",
+        "lib/net5.0-windows7/MindFusion.Pdf.dll",
+        "lib/net5.0-windows7/MindFusion.Scripting.dll",
+        "lib/net5.0-windows7/MindFusion.Svg.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.Svg.dll",
+        "lib/net5.0-windows7/MindFusion.Vsx.dll",
+        "lib/net5.0-windows7/MindFusion.Zip.dll",
+        "lib/net6.0-windows7/MindFusion.Barcodes.dll",
+        "lib/net6.0-windows7/MindFusion.Common.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.Common.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.xml",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.xml",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.xml",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.xml",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.xml",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.SvgImport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.xml",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.xml",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.xml",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.Diagramming.Wpf.xml",
+        "lib/net6.0-windows7/MindFusion.Graphs.dll",
+        "lib/net6.0-windows7/MindFusion.Licensing.dll",
+        "lib/net6.0-windows7/MindFusion.Pdf.dll",
+        "lib/net6.0-windows7/MindFusion.Scripting.dll",
+        "lib/net6.0-windows7/MindFusion.Svg.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.Svg.dll",
+        "lib/net6.0-windows7/MindFusion.Vsx.dll",
+        "lib/net6.0-windows7/MindFusion.Zip.dll",
+        "lib/netcoreapp3.1/MindFusion.Barcodes.dll",
+        "lib/netcoreapp3.1/MindFusion.Common.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.Common.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.DrawImport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.DrawImport.xml",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.DxfExport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.DxfExport.xml",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.ExcelExport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.ExcelExport.xml",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.PdfExport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.PdfExport.xml",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.SvgExport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.SvgExport.xml",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.SvgImport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.VisioExport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.VisioExport.xml",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.VisioImport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.VisioImport.xml",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.WmfExport.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.WmfExport.xml",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.Diagramming.Wpf.xml",
+        "lib/netcoreapp3.1/MindFusion.Graphs.dll",
+        "lib/netcoreapp3.1/MindFusion.Licensing.dll",
+        "lib/netcoreapp3.1/MindFusion.Pdf.dll",
+        "lib/netcoreapp3.1/MindFusion.Scripting.dll",
+        "lib/netcoreapp3.1/MindFusion.Svg.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.Svg.dll",
+        "lib/netcoreapp3.1/MindFusion.Vsx.dll",
+        "lib/netcoreapp3.1/MindFusion.Zip.dll",
+        "mindfusion.diagramming.wpf.3.9.3.nupkg.sha512",
+        "mindfusion.diagramming.wpf.nuspec",
+        "ref/net5.0-windows7/MindFusion.Barcodes.dll",
+        "ref/net5.0-windows7/MindFusion.Common.Wpf.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.SvgImport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.dll",
+        "ref/net5.0-windows7/MindFusion.Diagramming.Wpf.dll",
+        "ref/net5.0-windows7/MindFusion.Graphs.dll",
+        "ref/net5.0-windows7/MindFusion.Licensing.dll",
+        "ref/net5.0-windows7/MindFusion.Pdf.dll",
+        "ref/net5.0-windows7/MindFusion.Scripting.dll",
+        "ref/net5.0-windows7/MindFusion.Svg.Wpf.dll",
+        "ref/net5.0-windows7/MindFusion.Svg.dll",
+        "ref/net5.0-windows7/MindFusion.Vsx.dll",
+        "ref/net5.0-windows7/MindFusion.Zip.dll",
+        "ref/net6.0-windows7/MindFusion.Barcodes.dll",
+        "ref/net6.0-windows7/MindFusion.Common.Wpf.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.DrawImport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.DxfExport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.ExcelExport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.PdfExport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.SvgExport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.SvgImport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.VisioExport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.VisioImport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.WmfExport.dll",
+        "ref/net6.0-windows7/MindFusion.Diagramming.Wpf.dll",
+        "ref/net6.0-windows7/MindFusion.Graphs.dll",
+        "ref/net6.0-windows7/MindFusion.Licensing.dll",
+        "ref/net6.0-windows7/MindFusion.Pdf.dll",
+        "ref/net6.0-windows7/MindFusion.Scripting.dll",
+        "ref/net6.0-windows7/MindFusion.Svg.Wpf.dll",
+        "ref/net6.0-windows7/MindFusion.Svg.dll",
+        "ref/net6.0-windows7/MindFusion.Vsx.dll",
+        "ref/net6.0-windows7/MindFusion.Zip.dll",
+        "ref/netcoreapp3.1/MindFusion.Barcodes.dll",
+        "ref/netcoreapp3.1/MindFusion.Common.Wpf.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.DrawImport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.DxfExport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.ExcelExport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.PdfExport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.SvgExport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.SvgImport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.VisioExport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.VisioImport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.WmfExport.dll",
+        "ref/netcoreapp3.1/MindFusion.Diagramming.Wpf.dll",
+        "ref/netcoreapp3.1/MindFusion.Graphs.dll",
+        "ref/netcoreapp3.1/MindFusion.Licensing.dll",
+        "ref/netcoreapp3.1/MindFusion.Pdf.dll",
+        "ref/netcoreapp3.1/MindFusion.Scripting.dll",
+        "ref/netcoreapp3.1/MindFusion.Svg.Wpf.dll",
+        "ref/netcoreapp3.1/MindFusion.Svg.dll",
+        "ref/netcoreapp3.1/MindFusion.Vsx.dll",
+        "ref/netcoreapp3.1/MindFusion.Zip.dll"
+      ]
+    },
+    "MindFusion.Scheduling.Wpf/3.5.2": {
+      "sha512": "4zQj2UyRMHBOXUJMS0Vr+D1Oiwa3CIFJZwjo/gPtA5WI4y65oOeVuclHjUSvcbP58KQQ6J6ZKCE0rAH4cVGczg==",
+      "type": "package",
+      "path": "mindfusion.scheduling.wpf/3.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Office.Interop.Outlook.dll",
+        "lib/net45/MindFusion.Common.Wpf.Design.dll",
+        "lib/net45/MindFusion.Common.Wpf.dll",
+        "lib/net45/MindFusion.Common.dll",
+        "lib/net45/MindFusion.DataViews.Wpf.Design.dll",
+        "lib/net45/MindFusion.DataViews.Wpf.dll",
+        "lib/net45/MindFusion.Excel.Wpf.dll",
+        "lib/net45/MindFusion.HolidayProviders.dll",
+        "lib/net45/MindFusion.Licensing.dll",
+        "lib/net45/MindFusion.Pdf.dll",
+        "lib/net45/MindFusion.Scheduling.Wpf.Design.dll",
+        "lib/net45/MindFusion.Scheduling.Wpf.Excel.dll",
+        "lib/net45/MindFusion.Scheduling.Wpf.Outlook.dll",
+        "lib/net45/MindFusion.Scheduling.Wpf.Reporting.dll",
+        "lib/net45/MindFusion.Scheduling.Wpf.StandardForms.dll",
+        "lib/net45/MindFusion.Scheduling.Wpf.dll",
+        "lib/net45/MindFusion.UI.Wpf.dll",
+        "lib/net45/MindFusion.Zip.dll",
+        "lib/net5.0-windows7/MindFusion.Common.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.Common.dll",
+        "lib/net5.0-windows7/MindFusion.DataViews.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.Excel.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.HolidayProviders.dll",
+        "lib/net5.0-windows7/MindFusion.Licensing.dll",
+        "lib/net5.0-windows7/MindFusion.Pdf.dll",
+        "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.Excel.dll",
+        "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.Reporting.dll",
+        "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.StandardForms.dll",
+        "lib/net5.0-windows7/MindFusion.Scheduling.Wpf.dll",
+        "lib/net5.0-windows7/MindFusion.Zip.dll",
+        "lib/net6.0-windows7/MindFusion.Common.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.Common.dll",
+        "lib/net6.0-windows7/MindFusion.DataViews.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.Excel.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.HolidayProviders.dll",
+        "lib/net6.0-windows7/MindFusion.Licensing.dll",
+        "lib/net6.0-windows7/MindFusion.Pdf.dll",
+        "lib/net6.0-windows7/MindFusion.Scheduling.Wpf.Excel.dll",
+        "lib/net6.0-windows7/MindFusion.Scheduling.Wpf.Reporting.dll",
+        "lib/net6.0-windows7/MindFusion.Scheduling.Wpf.StandardForms.dll",
+        "lib/net6.0-windows7/MindFusion.Scheduling.Wpf.dll",
+        "lib/net6.0-windows7/MindFusion.Zip.dll",
+        "lib/netcoreapp3.1/MindFusion.Common.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.Common.dll",
+        "lib/netcoreapp3.1/MindFusion.DataViews.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.Excel.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.HolidayProviders.dll",
+        "lib/netcoreapp3.1/MindFusion.Licensing.dll",
+        "lib/netcoreapp3.1/MindFusion.Pdf.dll",
+        "lib/netcoreapp3.1/MindFusion.Scheduling.Wpf.Excel.dll",
+        "lib/netcoreapp3.1/MindFusion.Scheduling.Wpf.Reporting.dll",
+        "lib/netcoreapp3.1/MindFusion.Scheduling.Wpf.StandardForms.dll",
+        "lib/netcoreapp3.1/MindFusion.Scheduling.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.UI.Wpf.dll",
+        "lib/netcoreapp3.1/MindFusion.Zip.dll",
+        "mindfusion.scheduling.wpf.3.5.2.nupkg.sha512",
+        "mindfusion.scheduling.wpf.nuspec",
+        "ref/net5.0-windows7/MindFusion.Common.Wpf.dll",
+        "ref/net5.0-windows7/MindFusion.Common.dll",
+        "ref/net5.0-windows7/MindFusion.DataViews.Wpf.dll",
+        "ref/net5.0-windows7/MindFusion.Excel.Wpf.dll",
+        "ref/net5.0-windows7/MindFusion.HolidayProviders.dll",
+        "ref/net5.0-windows7/MindFusion.Licensing.dll",
+        "ref/net5.0-windows7/MindFusion.Pdf.dll",
+        "ref/net5.0-windows7/MindFusion.Scheduling.Wpf.Excel.dll",
+        "ref/net5.0-windows7/MindFusion.Scheduling.Wpf.Reporting.dll",
+        "ref/net5.0-windows7/MindFusion.Scheduling.Wpf.StandardForms.dll",
+        "ref/net5.0-windows7/MindFusion.Scheduling.Wpf.dll",
+        "ref/net5.0-windows7/MindFusion.UI.Wpf.dll",
+        "ref/net5.0-windows7/MindFusion.Zip.dll",
+        "ref/net6.0-windows7/MindFusion.Common.Wpf.dll",
+        "ref/net6.0-windows7/MindFusion.Common.dll",
+        "ref/net6.0-windows7/MindFusion.DataViews.Wpf.dll",
+        "ref/net6.0-windows7/MindFusion.Excel.Wpf.dll",
+        "ref/net6.0-windows7/MindFusion.HolidayProviders.dll",
+        "ref/net6.0-windows7/MindFusion.Licensing.dll",
+        "ref/net6.0-windows7/MindFusion.Pdf.dll",
+        "ref/net6.0-windows7/MindFusion.Scheduling.Wpf.Excel.dll",
+        "ref/net6.0-windows7/MindFusion.Scheduling.Wpf.Reporting.dll",
+        "ref/net6.0-windows7/MindFusion.Scheduling.Wpf.StandardForms.dll",
+        "ref/net6.0-windows7/MindFusion.Scheduling.Wpf.dll",
+        "ref/net6.0-windows7/MindFusion.UI.Wpf.dll",
+        "ref/net6.0-windows7/MindFusion.Zip.dll",
+        "ref/netcoreapp3.1/MindFusion.Common.Wpf.dll",
+        "ref/netcoreapp3.1/MindFusion.Common.dll",
+        "ref/netcoreapp3.1/MindFusion.DataViews.Wpf.dll",
+        "ref/netcoreapp3.1/MindFusion.Excel.Wpf.dll",
+        "ref/netcoreapp3.1/MindFusion.HolidayProviders.dll",
+        "ref/netcoreapp3.1/MindFusion.Licensing.dll",
+        "ref/netcoreapp3.1/MindFusion.Pdf.dll",
+        "ref/netcoreapp3.1/MindFusion.Scheduling.Wpf.Excel.dll",
+        "ref/netcoreapp3.1/MindFusion.Scheduling.Wpf.Reporting.dll",
+        "ref/netcoreapp3.1/MindFusion.Scheduling.Wpf.StandardForms.dll",
+        "ref/netcoreapp3.1/MindFusion.Scheduling.Wpf.dll",
+        "ref/netcoreapp3.1/MindFusion.UI.Wpf.dll",
+        "ref/netcoreapp3.1/MindFusion.Zip.dll"
+      ]
+    },
+    "Prism.Core/8.1.97": {
+      "sha512": "EP5zrvWddw3eSq25Y7hHnDYdmLZEC2Z/gMrvmHzUuLbitmA1UaS7wQUlSwNr9Km8lzJNCvytFnaGBEFukHgoHg==",
+      "type": "package",
+      "path": "prism.core/8.1.97",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net461/Prism.dll",
+        "lib/net461/Prism.pdb",
+        "lib/net461/Prism.xml",
+        "lib/net47/Prism.dll",
+        "lib/net47/Prism.pdb",
+        "lib/net47/Prism.xml",
+        "lib/net5.0/Prism.dll",
+        "lib/net5.0/Prism.pdb",
+        "lib/net5.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "prism-logo.png",
+        "prism.core.8.1.97.nupkg.sha512",
+        "prism.core.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Prism.DryIoc/8.1.97": {
+      "sha512": "8hdeAoZ+x1eBNIg+nMzox01uGUR4HnbCCR1iClNKwDfCWQ4ZtjEjsyeTXHcXKtG45xXqiERmJVew5tJmCdVPWw==",
+      "type": "package",
+      "path": "prism.dryioc/8.1.97",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net461/Prism.DryIoc.Wpf.dll",
+        "lib/net461/Prism.DryIoc.Wpf.pdb",
+        "lib/net461/Prism.DryIoc.Wpf.xml",
+        "lib/net47/Prism.DryIoc.Wpf.dll",
+        "lib/net47/Prism.DryIoc.Wpf.pdb",
+        "lib/net47/Prism.DryIoc.Wpf.xml",
+        "lib/net5.0-windows7.0/Prism.DryIoc.Wpf.dll",
+        "lib/net5.0-windows7.0/Prism.DryIoc.Wpf.pdb",
+        "lib/net5.0-windows7.0/Prism.DryIoc.Wpf.xml",
+        "lib/netcoreapp3.1/Prism.DryIoc.Wpf.dll",
+        "lib/netcoreapp3.1/Prism.DryIoc.Wpf.pdb",
+        "lib/netcoreapp3.1/Prism.DryIoc.Wpf.xml",
+        "prism-logo.png",
+        "prism.dryioc.8.1.97.nupkg.sha512",
+        "prism.dryioc.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Prism.Wpf/8.1.97": {
+      "sha512": "ZEa6S1mK35h8/blyb0uR0ed3wkpHtPdhB4eniXINJnTiJMWlGl/As6SVlFFdOPD+qsEdWNYV3xgyQD/ue5cvBA==",
+      "type": "package",
+      "path": "prism.wpf/8.1.97",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net461/Prism.Wpf.dll",
+        "lib/net461/Prism.Wpf.pdb",
+        "lib/net461/Prism.Wpf.xml",
+        "lib/net47/Prism.Wpf.dll",
+        "lib/net47/Prism.Wpf.pdb",
+        "lib/net47/Prism.Wpf.xml",
+        "lib/net5.0-windows7.0/Prism.Wpf.dll",
+        "lib/net5.0-windows7.0/Prism.Wpf.pdb",
+        "lib/net5.0-windows7.0/Prism.Wpf.xml",
+        "lib/netcoreapp3.1/Prism.Wpf.dll",
+        "lib/netcoreapp3.1/Prism.Wpf.pdb",
+        "lib/netcoreapp3.1/Prism.Wpf.xml",
+        "prism-logo.png",
+        "prism.wpf.8.1.97.nupkg.sha512",
+        "prism.wpf.nuspec",
+        "readme.txt"
+      ]
+    },
+    "System.IO/4.3.0": {
+      "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "type": "package",
+      "path": "system.io/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.IO.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.IO.dll",
+        "ref/netcore50/System.IO.dll",
+        "ref/netcore50/System.IO.xml",
+        "ref/netcore50/de/System.IO.xml",
+        "ref/netcore50/es/System.IO.xml",
+        "ref/netcore50/fr/System.IO.xml",
+        "ref/netcore50/it/System.IO.xml",
+        "ref/netcore50/ja/System.IO.xml",
+        "ref/netcore50/ko/System.IO.xml",
+        "ref/netcore50/ru/System.IO.xml",
+        "ref/netcore50/zh-hans/System.IO.xml",
+        "ref/netcore50/zh-hant/System.IO.xml",
+        "ref/netstandard1.0/System.IO.dll",
+        "ref/netstandard1.0/System.IO.xml",
+        "ref/netstandard1.0/de/System.IO.xml",
+        "ref/netstandard1.0/es/System.IO.xml",
+        "ref/netstandard1.0/fr/System.IO.xml",
+        "ref/netstandard1.0/it/System.IO.xml",
+        "ref/netstandard1.0/ja/System.IO.xml",
+        "ref/netstandard1.0/ko/System.IO.xml",
+        "ref/netstandard1.0/ru/System.IO.xml",
+        "ref/netstandard1.0/zh-hans/System.IO.xml",
+        "ref/netstandard1.0/zh-hant/System.IO.xml",
+        "ref/netstandard1.3/System.IO.dll",
+        "ref/netstandard1.3/System.IO.xml",
+        "ref/netstandard1.3/de/System.IO.xml",
+        "ref/netstandard1.3/es/System.IO.xml",
+        "ref/netstandard1.3/fr/System.IO.xml",
+        "ref/netstandard1.3/it/System.IO.xml",
+        "ref/netstandard1.3/ja/System.IO.xml",
+        "ref/netstandard1.3/ko/System.IO.xml",
+        "ref/netstandard1.3/ru/System.IO.xml",
+        "ref/netstandard1.3/zh-hans/System.IO.xml",
+        "ref/netstandard1.3/zh-hant/System.IO.xml",
+        "ref/netstandard1.5/System.IO.dll",
+        "ref/netstandard1.5/System.IO.xml",
+        "ref/netstandard1.5/de/System.IO.xml",
+        "ref/netstandard1.5/es/System.IO.xml",
+        "ref/netstandard1.5/fr/System.IO.xml",
+        "ref/netstandard1.5/it/System.IO.xml",
+        "ref/netstandard1.5/ja/System.IO.xml",
+        "ref/netstandard1.5/ko/System.IO.xml",
+        "ref/netstandard1.5/ru/System.IO.xml",
+        "ref/netstandard1.5/zh-hans/System.IO.xml",
+        "ref/netstandard1.5/zh-hant/System.IO.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.io.4.3.0.nupkg.sha512",
+        "system.io.nuspec"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection/4.3.0": {
+      "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "type": "package",
+      "path": "system.reflection/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Reflection.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Reflection.dll",
+        "ref/netcore50/System.Reflection.dll",
+        "ref/netcore50/System.Reflection.xml",
+        "ref/netcore50/de/System.Reflection.xml",
+        "ref/netcore50/es/System.Reflection.xml",
+        "ref/netcore50/fr/System.Reflection.xml",
+        "ref/netcore50/it/System.Reflection.xml",
+        "ref/netcore50/ja/System.Reflection.xml",
+        "ref/netcore50/ko/System.Reflection.xml",
+        "ref/netcore50/ru/System.Reflection.xml",
+        "ref/netcore50/zh-hans/System.Reflection.xml",
+        "ref/netcore50/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.0/System.Reflection.dll",
+        "ref/netstandard1.0/System.Reflection.xml",
+        "ref/netstandard1.0/de/System.Reflection.xml",
+        "ref/netstandard1.0/es/System.Reflection.xml",
+        "ref/netstandard1.0/fr/System.Reflection.xml",
+        "ref/netstandard1.0/it/System.Reflection.xml",
+        "ref/netstandard1.0/ja/System.Reflection.xml",
+        "ref/netstandard1.0/ko/System.Reflection.xml",
+        "ref/netstandard1.0/ru/System.Reflection.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.3/System.Reflection.dll",
+        "ref/netstandard1.3/System.Reflection.xml",
+        "ref/netstandard1.3/de/System.Reflection.xml",
+        "ref/netstandard1.3/es/System.Reflection.xml",
+        "ref/netstandard1.3/fr/System.Reflection.xml",
+        "ref/netstandard1.3/it/System.Reflection.xml",
+        "ref/netstandard1.3/ja/System.Reflection.xml",
+        "ref/netstandard1.3/ko/System.Reflection.xml",
+        "ref/netstandard1.3/ru/System.Reflection.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.5/System.Reflection.dll",
+        "ref/netstandard1.5/System.Reflection.xml",
+        "ref/netstandard1.5/de/System.Reflection.xml",
+        "ref/netstandard1.5/es/System.Reflection.xml",
+        "ref/netstandard1.5/fr/System.Reflection.xml",
+        "ref/netstandard1.5/it/System.Reflection.xml",
+        "ref/netstandard1.5/ja/System.Reflection.xml",
+        "ref/netstandard1.5/ko/System.Reflection.xml",
+        "ref/netstandard1.5/ru/System.Reflection.xml",
+        "ref/netstandard1.5/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.5/zh-hant/System.Reflection.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.4.3.0.nupkg.sha512",
+        "system.reflection.nuspec"
+      ]
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "sha512": "59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "type": "package",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.ILGeneration.xml",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/_._",
+        "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+        "system.reflection.emit.ilgeneration.nuspec"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "sha512": "oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
+      "type": "package",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/_._",
+        "system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec"
+      ]
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "type": "package",
+      "path": "system.reflection.primitives/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Reflection.Primitives.dll",
+        "ref/netcore50/System.Reflection.Primitives.xml",
+        "ref/netcore50/de/System.Reflection.Primitives.xml",
+        "ref/netcore50/es/System.Reflection.Primitives.xml",
+        "ref/netcore50/fr/System.Reflection.Primitives.xml",
+        "ref/netcore50/it/System.Reflection.Primitives.xml",
+        "ref/netcore50/ja/System.Reflection.Primitives.xml",
+        "ref/netcore50/ko/System.Reflection.Primitives.xml",
+        "ref/netcore50/ru/System.Reflection.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Reflection.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/System.Reflection.Primitives.dll",
+        "ref/netstandard1.0/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/de/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/es/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/it/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.primitives.4.3.0.nupkg.sha512",
+        "system.reflection.primitives.nuspec"
+      ]
+    },
+    "System.Runtime/4.3.0": {
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "type": "package",
+      "path": "system.runtime/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Runtime.dll",
+        "lib/portable-net45+win8+wp80+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.0/System.Runtime.dll",
+        "ref/netstandard1.0/System.Runtime.xml",
+        "ref/netstandard1.0/de/System.Runtime.xml",
+        "ref/netstandard1.0/es/System.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.xml",
+        "ref/netstandard1.0/it/System.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.2/System.Runtime.dll",
+        "ref/netstandard1.2/System.Runtime.xml",
+        "ref/netstandard1.2/de/System.Runtime.xml",
+        "ref/netstandard1.2/es/System.Runtime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.xml",
+        "ref/netstandard1.2/it/System.Runtime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.3/System.Runtime.dll",
+        "ref/netstandard1.3/System.Runtime.xml",
+        "ref/netstandard1.3/de/System.Runtime.xml",
+        "ref/netstandard1.3/es/System.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Runtime.xml",
+        "ref/netstandard1.3/it/System.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.5/System.Runtime.dll",
+        "ref/netstandard1.5/System.Runtime.xml",
+        "ref/netstandard1.5/de/System.Runtime.xml",
+        "ref/netstandard1.5/es/System.Runtime.xml",
+        "ref/netstandard1.5/fr/System.Runtime.xml",
+        "ref/netstandard1.5/it/System.Runtime.xml",
+        "ref/netstandard1.5/ja/System.Runtime.xml",
+        "ref/netstandard1.5/ko/System.Runtime.xml",
+        "ref/netstandard1.5/ru/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.xml",
+        "ref/portable-net45+win8+wp80+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.0.nupkg.sha512",
+        "system.runtime.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Encoding/4.3.0": {
+      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "type": "package",
+      "path": "system.text.encoding/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Text.Encoding.dll",
+        "ref/netcore50/System.Text.Encoding.xml",
+        "ref/netcore50/de/System.Text.Encoding.xml",
+        "ref/netcore50/es/System.Text.Encoding.xml",
+        "ref/netcore50/fr/System.Text.Encoding.xml",
+        "ref/netcore50/it/System.Text.Encoding.xml",
+        "ref/netcore50/ja/System.Text.Encoding.xml",
+        "ref/netcore50/ko/System.Text.Encoding.xml",
+        "ref/netcore50/ru/System.Text.Encoding.xml",
+        "ref/netcore50/zh-hans/System.Text.Encoding.xml",
+        "ref/netcore50/zh-hant/System.Text.Encoding.xml",
+        "ref/netstandard1.0/System.Text.Encoding.dll",
+        "ref/netstandard1.0/System.Text.Encoding.xml",
+        "ref/netstandard1.0/de/System.Text.Encoding.xml",
+        "ref/netstandard1.0/es/System.Text.Encoding.xml",
+        "ref/netstandard1.0/fr/System.Text.Encoding.xml",
+        "ref/netstandard1.0/it/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ja/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ko/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ru/System.Text.Encoding.xml",
+        "ref/netstandard1.0/zh-hans/System.Text.Encoding.xml",
+        "ref/netstandard1.0/zh-hant/System.Text.Encoding.xml",
+        "ref/netstandard1.3/System.Text.Encoding.dll",
+        "ref/netstandard1.3/System.Text.Encoding.xml",
+        "ref/netstandard1.3/de/System.Text.Encoding.xml",
+        "ref/netstandard1.3/es/System.Text.Encoding.xml",
+        "ref/netstandard1.3/fr/System.Text.Encoding.xml",
+        "ref/netstandard1.3/it/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ja/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ko/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ru/System.Text.Encoding.xml",
+        "ref/netstandard1.3/zh-hans/System.Text.Encoding.xml",
+        "ref/netstandard1.3/zh-hant/System.Text.Encoding.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.text.encoding.4.3.0.nupkg.sha512",
+        "system.text.encoding.nuspec"
+      ]
+    },
+    "System.Text.Encoding.CodePages/7.0.0": {
+      "sha512": "LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encoding.CodePages.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Text.Encoding.CodePages.dll",
+        "lib/net462/System.Text.Encoding.CodePages.xml",
+        "lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.7.0.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "type": "package",
+      "path": "system.threading.tasks/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Threading.Tasks.dll",
+        "ref/netcore50/System.Threading.Tasks.xml",
+        "ref/netcore50/de/System.Threading.Tasks.xml",
+        "ref/netcore50/es/System.Threading.Tasks.xml",
+        "ref/netcore50/fr/System.Threading.Tasks.xml",
+        "ref/netcore50/it/System.Threading.Tasks.xml",
+        "ref/netcore50/ja/System.Threading.Tasks.xml",
+        "ref/netcore50/ko/System.Threading.Tasks.xml",
+        "ref/netcore50/ru/System.Threading.Tasks.xml",
+        "ref/netcore50/zh-hans/System.Threading.Tasks.xml",
+        "ref/netcore50/zh-hant/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/System.Threading.Tasks.dll",
+        "ref/netstandard1.0/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/de/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/es/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/fr/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/it/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ja/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ko/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ru/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/zh-hans/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/zh-hant/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/System.Threading.Tasks.dll",
+        "ref/netstandard1.3/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/de/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/es/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/fr/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/it/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ja/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ko/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ru/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/zh-hans/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/zh-hant/System.Threading.Tasks.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.4.3.0.nupkg.sha512",
+        "system.threading.tasks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "AutoMapper >= 12.0.1",
+      "C1.Xaml.WPF.Schedule >= 4.6.20232.790",
+      "ExcelDataReader >= 3.6.0",
+      "ExcelDataReader.DataSet >= 3.6.0",
+      "MahApps.Metro.IconPacks.Material >= 4.11.0",
+      "MaterialDesignThemes >= 4.9.0",
+      "MindFusion.Diagramming.Wpf >= 3.9.3",
+      "MindFusion.Scheduling.Wpf >= 3.5.2",
+      "Prism.DryIoc >= 8.1.97",
+      "System.Text.Encoding.CodePages >= 7.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zzy\\.nuget\\packages\\": {},
+    "D:\\Coding\\Visual Studio\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Coding\\WPF Application\\Class_Scheduler\\Class_Scheduler\\Class_Scheduler.csproj",
+      "projectName": "Class_Scheduler",
+      "projectPath": "E:\\Coding\\WPF Application\\Class_Scheduler\\Class_Scheduler\\Class_Scheduler.csproj",
+      "packagesPath": "C:\\Users\\zzy\\.nuget\\packages\\",
+      "outputPath": "E:\\Coding\\WPF Application\\Class_Scheduler\\Class_Scheduler\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Coding\\Visual Studio\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\zzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
+          "C1.Xaml.WPF.Schedule": {
+            "target": "Package",
+            "version": "[4.6.20232.790, )"
+          },
+          "ExcelDataReader": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
+          "ExcelDataReader.DataSet": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
+          "MahApps.Metro.IconPacks.Material": {
+            "target": "Package",
+            "version": "[4.11.0, )"
+          },
+          "MaterialDesignThemes": {
+            "target": "Package",
+            "version": "[4.9.0, )"
+          },
+          "MindFusion.Diagramming.Wpf": {
+            "target": "Package",
+            "version": "[3.9.3, )"
+          },
+          "MindFusion.Scheduling.Wpf": {
+            "target": "Package",
+            "version": "[3.5.2, )"
+          },
+          "Prism.DryIoc": {
+            "target": "Package",
+            "version": "[8.1.97, )"
+          },
+          "System.Text.Encoding.CodePages": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net5.0-windows7.0”还原包“C1.Xaml.WPF 4.6.20232.790”。此包可能与项目不完全兼容。",
+      "libraryId": "C1.Xaml.WPF",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net5.0-windows7.0”还原包“C1.Xaml.WPF.DateTimeEditors 4.6.20232.790”。此包可能与项目不完全兼容。",
+      "libraryId": "C1.Xaml.WPF.DateTimeEditors",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net5.0-windows7.0”还原包“C1.Xaml.WPF.Schedule 4.6.20232.790”。此包可能与项目不完全兼容。",
+      "libraryId": "C1.Xaml.WPF.Schedule",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

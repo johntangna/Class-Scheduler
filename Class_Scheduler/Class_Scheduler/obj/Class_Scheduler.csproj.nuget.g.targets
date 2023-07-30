@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.encoding.codepages\7.0.0\buildTransitive\netcoreapp2.0\System.Text.Encoding.CodePages.targets" Condition="Exists('$(NuGetPackageRoot)system.text.encoding.codepages\7.0.0\buildTransitive\netcoreapp2.0\System.Text.Encoding.CodePages.targets')" />
+    <Import Project="$(NuGetPackageRoot)materialdesignthemes\4.9.0\build\MaterialDesignThemes.targets" Condition="Exists('$(NuGetPackageRoot)materialdesignthemes\4.9.0\build\MaterialDesignThemes.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.xaml.wpf\4.6.20232.790\buildTransitive\net462\C1.Xaml.WPF.targets" Condition="Exists('$(NuGetPackageRoot)c1.xaml.wpf\4.6.20232.790\buildTransitive\net462\C1.Xaml.WPF.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.xaml.wpf.datetimeeditors\4.6.20232.790\buildTransitive\net462\C1.Xaml.WPF.DateTimeEditors.targets" Condition="Exists('$(NuGetPackageRoot)c1.xaml.wpf.datetimeeditors\4.6.20232.790\buildTransitive\net462\C1.Xaml.WPF.DateTimeEditors.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.xaml.wpf.schedule\4.6.20232.790\buildTransitive\net462\C1.Xaml.WPF.Schedule.targets" Condition="Exists('$(NuGetPackageRoot)c1.xaml.wpf.schedule\4.6.20232.790\buildTransitive\net462\C1.Xaml.WPF.Schedule.targets')" />
+  </ImportGroup>
+</Project>
