@@ -9,8 +9,8 @@ namespace Class_Scheduler.Common.Models
 	/// <summary>
 	/// 添加老师不同时间段的数据
 	/// </summary>
-    public class Teacher : UserBase
-    {
+	public class Teacher : UserBase
+	{
 
 		private string emailAddress;
 
@@ -35,11 +35,14 @@ namespace Class_Scheduler.Common.Models
 			set { subjects = value; RaisePropertyChanged(); }
 		}
 
+		private List<int> busyTimeSlotId = new List<int>();
+		public List<int> BusyTimeSlotId { get { return busyTimeSlotId; } set { busyTimeSlotId = value; RaisePropertyChanged(); } }
+
 		private List<TimeSlot> busyTimeSlots = new List<TimeSlot>(5);
 
 		public List<TimeSlot> BusyTimeSlots
-        { 
-			get { return busyTimeSlots; } 
+		{
+			get { return busyTimeSlots; }
 		}
-    }
+	}
 }
